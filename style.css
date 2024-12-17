@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(8, 31, 73);
+    color: white;
+}
+
+.card-grid {
+    background-color: black;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    gap: 8px;
+    padding: 12px
+}
+
+.card {
+    background-color: white;
+    width:  200px;
+    height:  300px;
+}
