@@ -13,8 +13,8 @@ function addImage(root, path) {
 addEventListener("load", 
     () => {
         let ele = document.getElementById("cg");
-        console.log("hello")
-        addImage(ele, "cards/test.svg")
-        addImage(ele, "cards/mys.svg")
+        addImage(ele, "cards/common.svg")
+        addImage(ele, "cards/rare.svg")
+        addImage(ele, "cards/legend.svg")
     }
 )
