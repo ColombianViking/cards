@@ -1,0 +1,9 @@
+[
+    {"title": "First card", "description": "Testing", "image": "bb.png", "rarity":"legend"},
+    {"title": "Common thing", "description": "this longer text that might have to be changed", "image": "patoot.png", "rarity":"common"},
+    {"title": "Lincoln öra", "description": "Den där gången vi kollade på prison break 🪈", "image": "linconöra.png", "rarity":"common"},
+    {"title": "Mellobetyg", "description": "Titta på mello tillsammans och sätta betyg och sån", "image": "moelloback.png", "rarity":"common"},
+    {"title": "Bibblets serien", "description": "När john övade på att rita varje kväll.", "image": "bibbmys.png", "rarity":"common"},
+    {"title": "Kebab picen", "description": "När john hjälpte till med kebabbilden", "image": "kebabpic_final_1.png", "rarity":"common"},
+    {"title": "Beevee", "description": "När vi visar vad vi känner för varandra.", "image": "beevee.png", "rarity":"common"}
+]
