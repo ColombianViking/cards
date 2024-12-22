@@ -67,5 +67,11 @@ addEventListener("load",
         addImage(ele, "modified/Bibblets_serien.svg")
         addImage(ele, "modified/Mellobetyg.svg")
         addImage(ele, "modified/Kebab_picen.svg")
+        addImage(ele, "modified/Balatro.svg")
+        addImage(ele, "modified/Dexter.svg")
+        addImage(ele, "modified/Köttbullar.svg")
+        addImage(ele, "modified/Monsklint.svg")
+        addImage(ele, "modified/Papegoja.svg")
+        addImage(ele, "modified/Ryde.svg")
     }
 )
