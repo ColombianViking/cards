@@ -1,6 +1,7 @@
 body {
   background-color: rgb(8, 31, 73);
   color: white;
+  font-family: "Kanit", serif;
 }
 
 .card-grid {

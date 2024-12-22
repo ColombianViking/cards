@@ -9,20 +9,34 @@ const OUTPUT_DIR = "output";
 // Placeholder keys in SVG templates
 const PLACEHOLDERS = {
   title: "{{TITLE}}",
-  description: "{{DESCRIPTION}}",
+  description_1: "{{DESCRIPTION_1}}",
+  description_2: "{{DESCRIPTION_2}}",
+  description_3: "{{DESCRIPTION_3}}",
+  description_4: "{{DESCRIPTION_4}}",
   image: "{{IMAGE_PATH}}",
 };
 
 // Function to replace placeholders in SVG content
-function generateCard(templatePath, outputPath, title, description, imagePath) {
+function generateCard(
+  templatePath,
+  outputPath, 
+  title, 
+  description_1,
+  description_2, 
+  description_3, 
+  description_4, 
+  imagePath) {
   const svgContent = fs.readFileSync(templatePath, "utf8");
 
   // Replace placeholders
   const updatedSvg = svgContent
     .replace(PLACEHOLDERS.title, title)
-    .replace(PLACEHOLDERS.description, description)
-    .replace(PLACEHOLDERS.image, imagePath);
-
+    .replace(PLACEHOLDERS.description_1, description_1)
+    .replace(PLACEHOLDERS.description_2, description_2)
+    .replace(PLACEHOLDERS.description_3, description_3)
+    .replace(PLACEHOLDERS.description_4, description_4)
+    .replaceAll(PLACEHOLDERS.image, imagePath);
+  
   // Save the modified SVG
   fs.writeFileSync(outputPath, updatedSvg, "utf8");
 }
@@ -39,7 +53,10 @@ function processCards(jsonFile) {
 
   cards.forEach((card) => {
     const title = card.title || "No Title";
-    const description = card.description || "No Description";
+    const description_1 = card.description_1 || "No Description";
+    const description_2 = card.description_2 || "";
+    const description_3 = card.description_3 || "";
+    const description_4 = card.description_4 || "";
     const rarity = (card.rarity || "common").toLowerCase();
     const imageName = card.image || "";
 
@@ -61,7 +78,15 @@ function processCards(jsonFile) {
     const outputPath = path.join(OUTPUT_DIR, outputFileName);
 
     // Generate card
-    generateCard(templatePath, outputPath, title, description, imagePath);
+    generateCard(
+      templatePath, 
+      outputPath, 
+      title, 
+      description_1, 
+      description_2, 
+      description_3, 
+      description_4, 
+      imagePath);
     console.log(`Generated card: ${outputFileName}`);
   });
 }

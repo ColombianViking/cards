@@ -1,3 +1,29 @@
 [
-    {"title": "Title", "description": "description", "image": "Ryde.png", "rarity":"common"}
+    {
+        "title": "Balatro",
+        "description_1": "baräng baräng baräng",
+        "description_2": "baräng baräng baräng",
+        "description_3": "baräng baräng baräng",
+        "description_4": "baräng baräng baräng",
+        "image": "Balatro.png",
+        "rarity": "common"
+    },
+    {
+        "title": ":eevee:",
+        "description_1": "Sitta i unite lobbyn",
+        "description_2": "och smygskicka emojis",
+        "description_3": "",
+        "description_4": "",
+        "image": "beevee.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Första ryden",
+        "description_1": "Bibbis första ryde",
+        "description_2": "",
+        "description_3": "",
+        "description_4": "",
+        "image": "Ryde.png",
+        "rarity": "common"
+    },
 ]
