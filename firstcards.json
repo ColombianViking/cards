@@ -1,12 +1,12 @@
 [
     {
         "title": "Balatro",
-        "description_1": "baräng baräng baräng",
-        "description_2": "baräng baräng baräng",
-        "description_3": "baräng baräng baräng",
-        "description_4": "baräng baräng baräng",
+        "description_1": "baräng baräng baräng baräng",
+        "description_2": "baräng baräng baräng baräng",
+        "description_3": "baräng baräng baräng baräng",
+        "description_4": "baräng baräng baräng baräng",
         "image": "Balatro.png",
-        "rarity": "common"
+        "rarity": "legend"
     },
     {
         "title": ":eevee:",
@@ -19,11 +19,101 @@
     },
     {
         "title": "Första ryden",
-        "description_1": "Bibbis första ryde",
-        "description_2": "",
+        "description_1": "När bibbi upptäckte",
+        "description_2": "hur gucci det var att ryda",
         "description_3": "",
         "description_4": "",
         "image": "Ryde.png",
         "rarity": "common"
     },
+    {
+        "title": "Bibblets",
+        "description_1": "När jag gjorde småritningsövningar",
+        "description_2": "varje dag.",
+        "description_3": "",
+        "description_4": "",
+        "image": "bibbmys.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Dexter",
+        "description_1": "När vi tittade på lite Dexter",
+        "description_2": "",
+        "description_3": "",
+        "description_4": "",
+        "image": "dexter.png",
+        "rarity": "rare"
+    },
+    {
+        "title": "Prison break",
+        "description_1": "Kvack kvack",
+        "description_2": "ooa ooa (mystisk panflöjt)",
+        "description_3": "",
+        "description_4": "",
+        "image": "linconöra.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Årets kebab",
+        "description_1": "Kebab",
+        "description_2": "",
+        "description_3": "",
+        "description_4": "",
+        "image": "kebabpic_final_1.png",
+        "rarity": "rare"
+    },
+    {
+        "title": "jag e ba",
+        "description_1": "en liten gubbe",
+        "description_2": "",
+        "description_3": "",
+        "description_4": "",
+        "image": "chopper-little-guy.gif",
+        "rarity": "legend"
+    },
+    {
+        "title": "Köttbullar",
+        "description_1": "Göteborska köttbullar",
+        "description_2": "so nice",
+        "description_3": "we ordered them",
+        "description_4": "twice",
+        "image": "Köttbullar.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Love is blind",
+        "description_1": "Svenska, amerikanska, mexikanska",
+        "description_2": "Habibi, brasilianska och somna ",
+        "description_3": "till den japanska",
+        "description_4": "",
+        "image": "love is blind.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Mellostreams",
+        "description_1": "När vi roastade danny saucedo",
+        "description_2": "och allas outfits",
+        "description_3": "",
+        "description_4": "",
+        "image": "moelloback.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Møns Klint",
+        "description_1": "När vi gick i trappor och åt ",
+        "description_2": "pastasallad och lyssnade på holger",
+        "description_3": "babbla om tidsåldrar",
+        "description_4": "",
+        "image": "monsklint.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Minecraft",
+        "description_1": "När vi gameade minecraft och ",
+        "description_2": "bibbi vallfärdade för att hitta",
+        "description_3": "en papegoja som var blå <3",
+        "description_4": "",
+        "image": "papegoja.png",
+        "rarity": "rare"
+    }
 ]

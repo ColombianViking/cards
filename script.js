@@ -1,4 +1,3 @@
-
 function addImage(root, path) {
   let svg = document.createElement("div");
   let glow = document.createElement("div");
@@ -56,12 +55,28 @@ function addImage(root, path) {
   });
 }
 
+function getCards() {
+  let ele = document.getElementById("cg");
+  fetch("firstcards.json").then((response) => response.json())
+  .then((data) => {
+    for (let card of data) {
+      console.log(card);
+      const title = card.title || "No Title";
+      const outputFileName = `${title.replace(/ /g, "_")}.svg`;
+      addImage(ele, "output/" + outputFileName);
+    }
+  })
+  
+}
+
 addEventListener("load", 
     () => {
-        let ele = document.getElementById("cg");
-        addImage(ele, "output/Balatro.svg")
-        addImage(ele, "output/:eevee:.svg")
-        addImage(ele, "output/Första_ryden.svg")
+        
+        // addImage(ele, "output/Balatro.svg")
+        // addImage(ele, "output/:eevee:.svg")
+        // addImage(ele, "output/Första_ryden.svg")
+        // addImage(ele, "output/Bibblets.svg")
+        getCards();
         //addImage(ele, "cards/common.svg")
         //addImage(ele, "cards/rare.svg")
         //addImage(ele, "cards/legend.svg")
