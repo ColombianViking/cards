@@ -6,7 +6,7 @@
         "description_3": "baräng baräng baräng baräng",
         "description_4": "baräng baräng baräng baräng",
         "image": "Balatro.png",
-        "rarity": "legend"
+        "rarity": "common"
     },
     {
         "title": ":eevee:",
@@ -24,7 +24,7 @@
         "description_3": "",
         "description_4": "",
         "image": "Ryde.png",
-        "rarity": "common"
+        "rarity": "rare"
     },
     {
         "title": "Bibblets",
@@ -42,7 +42,7 @@
         "description_3": "",
         "description_4": "",
         "image": "dexter.png",
-        "rarity": "rare"
+        "rarity": "common"
     },
     {
         "title": "Prison break",
@@ -78,12 +78,12 @@
         "description_3": "we ordered them",
         "description_4": "twice",
         "image": "Köttbullar.png",
-        "rarity": "common"
+        "rarity": "rare"
     },
     {
         "title": "Love is blind",
         "description_1": "Svenska, amerikanska, mexikanska",
-        "description_2": "Habibi, brasilianska och somna ",
+        "description_2": "Habibi, brasilianska och somna",
         "description_3": "till den japanska",
         "description_4": "",
         "image": "love is blind.png",
@@ -115,5 +115,167 @@
         "description_4": "",
         "image": "papegoja.png",
         "rarity": "rare"
+    },
+    {
+        "title": "Artur: Cobra Kai",
+        "description_1": "Hårt mot hårt, Artur!'",
+        "description_2": "1 of 3",
+        "description_3": "",
+        "description_4": "",
+        "image": "artur cobra.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Artur: Cowboy",
+        "description_1": "Pangbra, Artur!",
+        "description_2": "1 of 3",
+        "description_3": "",
+        "description_4": "",
+        "image": "artur cowboy.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Artur: Pigrace",
+        "description_1": "Livet är grymt, Artur!",
+        "description_2": "1 of 3",
+        "description_3": "",
+        "description_4": "",
+        "image": "artur pig race.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Todo: Blum",
+        "description_1": "Bibbit sköter om den lokala faunan",
+        "description_2": "",
+        "description_3": "1 of 4",
+        "description_4": "",
+        "image": "finch blum.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Todo: Kippa",
+        "description_1": "Bibbit ska ha fest och folköl",
+        "description_2": "1 of 4",
+        "description_3": "",
+        "description_4": "",
+        "image": "finch coop.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Todo: Diska",
+        "description_1": "Bibbit tvålar in och sköljer av",
+        "description_2": "1 of 4",
+        "description_3": "",
+        "description_4": "",
+        "image": "finch disk.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Todo: Räkning",
+        "description_1": "Bibbit ska inte till inkasso",
+        "description_2": "1 of 4",
+        "description_3": "",
+        "description_4": "",
+        "image": "finch rak.png",
+        "rarity": "common"
+    },
+    {
+        "title": "gogogaga",
+        "description_1": "hink och spade",
+        "description_2": "",
+        "description_3": "",
+        "description_4": "",
+        "image": "gogogaga.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Singles Inferno",
+        "description_1": "När gwanhee var en maddafakka",
+        "description_2": "och var velig och sa eto... oh oh",
+        "description_3": "",
+        "description_4": "",
+        "image": "gwanhee.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Lost",
+        "description_1": "See you in another life, brother",
+        "description_2": "4 8 15 16 23 42",
+        "description_3": "",
+        "description_4": "",
+        "image": "Lost.png",
+        "rarity": "common"
+    },
+    {
+        "title": "care package: 2",
+        "description_1": "Lite pastasallet med mozzarella",
+        "description_2": "tomat och balsamico",
+        "description_3": "1 of 3",
+        "description_4": "",
+        "image": "matlåda 2.png",
+        "rarity": "common"
+    },
+    {
+        "title": "care package: 3",
+        "description_1": "Lite kärlek to go",
+        "description_2": "1 of 3",
+        "description_3": "",
+        "description_4": "",
+        "image": "matlåda 3.png",
+        "rarity": "common"
+    },
+    {
+        "title": "care package: 1",
+        "description_1": "Conk och kaka",
+        "description_2": "1 of 3",
+        "description_3": "",
+        "description_4": "",
+        "image": "matlåda.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Sigur ros",
+        "description_1": "Våran weekend i Stockholm med",
+        "description_2": "blåbärsmacka, kBBQ, utekväll och",
+        "description_3": "en efterlängtad konsert",
+        "description_4": "",
+        "image": "sigur ros.png",
+        "rarity": "legend"
+    },
+    {
+        "title": "Pokemon Sleep",
+        "description_1": "Våra nätter på greengrass, stranden",
+        "description_2": "fängelsehålan, tundra, lapiz ",
+        "description_3": "och det nya stället",
+        "description_4": "",
+        "image": "sleep.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Sovrummet",
+        "description_1": "När bibbi sa att hon hade sin",
+        "description_2": "plats :)",
+        "description_3": "",
+        "description_4": "",
+        "image": "sovrummet.png",
+        "rarity": "legend"
+    },
+    {
+        "title": "TV historian",
+        "description_1": "När Elon David och DHL och TCL",
+        "description_2": "bjöd på drama, intriger och",
+        "description_3": "en massa action istället ",
+        "description_4": "för att fixa tvn",
+        "image": "TV historian.png",
+        "rarity": "common"
+    },
+    {
+        "title": "Vinland saga",
+        "description_1": "När vi kollade på vikingar",
+        "description_2": "och stavade ragnar baklänges",
+        "description_3": "",
+        "description_4": "",
+        "image": "vinland saga.png",
+        "rarity": "common"
     }
 ]
