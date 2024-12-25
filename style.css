@@ -9,6 +9,12 @@ body {
   animation: gradient-animation 18s ease infinite;
 }
 
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
 .card-grid {
   background-color: rgb(80, 79, 79, 0.5);
   display: flex;
@@ -28,7 +34,7 @@ body {
   text-align: center;
 }
 .card {
-  padding: 0.5em;
+  padding: 0.1em;
   width: 200px;
   height: 300px;
 
@@ -66,9 +72,11 @@ body {
   border-radius: 5px;
   position: relative;
   height: 400px;
-  width: 33%;
-  margin-left: 33%;
-  margin-bottom: 20px;
+  width: 300px;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+
   display: flex;
   align-items: center;
   justify-content: center;
