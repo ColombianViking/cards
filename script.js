@@ -22,7 +22,7 @@ function addImage(root, path, clickToDismiss = false, coverCard = false, removeD
     .then((svgContent) => {
       svg.innerHTML = svgContent;
     })
-    .then((_) => svg.appendChild(glow))
+    .then((_) => {svg.appendChild(glow)})
     .then((_) => root.appendChild(svg));
 
   function rotateToMouse(e) {
