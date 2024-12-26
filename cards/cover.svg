@@ -7,7 +7,7 @@
         </radialGradient>
     </defs>
     <filter id='whoosh' x='0%' y='0%' width='100%' height='100%'>
-      <feTurbulence result="turb" baseFrequency="0.01" type="fractalnoise"/>
+      <feTurbulence result="turb" baseFrequency="0.01"/>
       <feColorMatrix in="turb" type="hueRotate" values="0" result="cloud">
         <animate attributeName="values" from="0" to="360" dur="5s" repeatCount="indefinite"/>
       </feColorMatrix>

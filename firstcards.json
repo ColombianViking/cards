@@ -117,7 +117,7 @@
         "rarity": "rare"
     },
     {
-        "title": "Artur: Cobra Kai",
+        "title": "Artur kai",
         "description_1": "Hårt mot hårt, Artur!'",
         "description_2": "1 of 3",
         "description_3": "",
@@ -207,25 +207,25 @@
         "rarity": "common"
     },
     {
-        "title": "care package: 2",
+        "title": "care package 3",
         "description_1": "Lite pastasallet med mozzarella",
         "description_2": "tomat och balsamico",
         "description_3": "1 of 3",
-        "description_4": "",
-        "image": "matlåda 2.png",
-        "rarity": "common"
-    },
-    {
-        "title": "care package: 3",
-        "description_1": "Lite kärlek to go",
-        "description_2": "1 of 3",
-        "description_3": "",
         "description_4": "",
         "image": "matlåda 3.png",
         "rarity": "common"
     },
     {
-        "title": "care package: 1",
+        "title": "care package 2",
+        "description_1": "Morotsvatten och knäckemacka",
+        "description_2": "1 of 3",
+        "description_3": "",
+        "description_4": "",
+        "image": "matlåda 2.png",
+        "rarity": "common"
+    },
+    {
+        "title": "care package 1",
         "description_1": "Conk och kaka",
         "description_2": "1 of 3",
         "description_3": "",
@@ -239,7 +239,7 @@
         "description_2": "blåbärsmacka, kBBQ, utekväll och",
         "description_3": "en efterlängtad konsert",
         "description_4": "",
-        "image": "sigur ros.png",
+        "image": "sigur ros.gif",
         "rarity": "legend"
     },
     {
@@ -257,7 +257,7 @@
         "description_2": "plats :)",
         "description_3": "",
         "description_4": "",
-        "image": "sovrummet.png",
+        "image": "sovrummet.gif",
         "rarity": "legend"
     },
     {

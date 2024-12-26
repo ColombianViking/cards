@@ -36,6 +36,7 @@
 
     <!-- Text -->
     <!-- Text -->
+    
     <rect x=15 y=208 width="165" height="50" stroke="darkgray" stroke-width="2" fill="rgb(254, 255, 197)"/>
     <text class="text" x=20 y=220 width="160" >
         en liten gubbe

@@ -208,6 +208,11 @@ function updateCollectionCounter() {
   .then((data) => {
     total = data.length;
     counter.innerText = `${collection.length}/${total}`;
+    if (collection.length >= total) {
+      let finished = document.getElementById("finished");
+      finished.style.display = "block";
+      finished.innerHTML = "Grattis bibbi! Hoppas detta var kul och jag ser framemot att skapa fler minnen tillsammans!";
+    }
   })
 }
 
