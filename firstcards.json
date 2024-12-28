@@ -55,12 +55,12 @@
     },
     {
         "title": "Årets kebab",
-        "description_1": "Kebab",
-        "description_2": "",
+        "description_1": "När jag fick vara med",
+        "description_2": "på den årliga traditionen",
         "description_3": "",
         "description_4": "",
-        "image": "kebabpic_final_1.png",
-        "rarity": "rare"
+        "image": "lowfinalfinal.gif",
+        "rarity": "legend"
     },
     {
         "title": "jag e ba",
@@ -277,5 +277,15 @@
         "description_4": "",
         "image": "vinland saga.png",
         "rarity": "common"
+    },
+    {
+        "title": "Badsommar",
+        "description_1": "I havet, på tinnerbäck",
+        "description_2": "på gubbholmen och i badkaret",
+        "description_3":"",
+        "description_4":"",
+        "image": "simmeluring.gif",
+        "rarity":"legend"
     }
+
 ]
