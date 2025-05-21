@@ -201,17 +201,22 @@ function addImagesToBooster() {
 
 function updateCollectionCounter() {
   let counter = document.getElementById("counter");
+  let finished = document.getElementById("finished"); // Get 'finished' element as well
+
   // get number of total cards and number in collection
   let total = 0;
   let collection = getCollection();
   fetch("firstcards.json").then((response) => response.json())
   .then((data) => {
     total = data.length;
-    counter.innerText = `${collection.length}/${total}`;
+    if (counter) { // Check if counter element exists
+      counter.innerText = `${collection.length}/${total}`;
+    }
     if (collection.length >= total) {
-      let finished = document.getElementById("finished");
-      finished.style.display = "block";
-      finished.innerHTML = "Grattis bibbi! Hoppas detta var kul och jag ser framemot att skapa fler minnen tillsammans!";
+      if (finished) { // Check if finished element exists
+        finished.style.display = "block";
+        finished.innerHTML = "Grattis bibbi! Hoppas detta var kul och jag ser framemot att skapa fler minnen tillsammans!";
+      }
     }
   })
 }
